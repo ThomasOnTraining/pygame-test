@@ -13,7 +13,7 @@ pygame.display.set_caption("Mover Imagem com Setas")
 BG_COLOR = (193, 0, 40)  # cor de fundo (um tom escuro)
 
 # Carregar a imagem
-image_file = "GAME\\player.png"  # Coloque o nome correto da sua imagem aqui
+image_file = "player.png"  # Coloque o nome correto da sua imagem aqui
 if os.path.exists(image_file):
     img = pygame.image.load(image_file).convert_alpha()  # Carregar a imagem
     img_rect = img.get_rect(center=(WIDTH // 2, HEIGHT // 2))  # Centraliza a imagem
